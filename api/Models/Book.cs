@@ -1,5 +1,6 @@
 using System;
 
+
 namespace Fisher.Bookstore.Bookstore.Models
 {
     public class Book
@@ -8,13 +9,17 @@ namespace Fisher.Bookstore.Bookstore.Models
 
         public string Title {get;set;}
 
-        public string Author{get;set;}
+        public Author Author{get;set;}
 
         public string ISBN {get;set;}
 
         public DateTime publishDate{get;set;}
         public string Publisher{get;set;}
 
+        public void ChangePublicationDate(DateTime dateTime)
+        {
+            this.publishDate=dateTime;
+        }
     }
 }
 

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Fisher.Bookstore.Bookstore.Models
+namespace Fisher.Bookstore.Models
 {
     public class Author
     {

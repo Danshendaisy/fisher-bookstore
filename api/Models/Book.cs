@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Fisher.Bookstore.Bookstore.Models
+namespace Fisher.Bookstore.Models
 {
     public class Book
     {

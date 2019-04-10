@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using Fisher.Bookstore.Bookstore.Models;
+using Fisher.Bookstore.Models;
 
 namespace tests
 {
